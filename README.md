@@ -20,7 +20,7 @@ You can try it online at http://nasqar.abudhabi.nyu.edu/SeuratV3Wizard
 ## Run using docker (Recommended):
 Make sure Docker (version >= 17.03.0-ce) is installed.
 ```
-docker run -p 80:80 aymanm/seuratv3wizard
+docker run -p 80:80 robingarcia/seuratv3wizard
 ```
 This will run on port 80
 
@@ -33,7 +33,7 @@ This will run on port 8083
 ## Local Install:
 Make sure to have devtools installed first
 ```
-devtools::install_github("nasqar/seuratv3wizard")
+devtools::install_github("robingarcia/seuratv3wizard")
 ```
 
 Optional: For ucsc cellbrowser support, make sure to follow the installation instructions [here](https://cellbrowser.readthedocs.io). For linux-based OS, type the following in the terminal:
